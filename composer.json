@@ -1,0 +1,20 @@
+{
+    "name": "jlaso/simple-stats-demo",
+    "description": "A demo for jlaso/simple-stats",
+    "keywords": ["log", "events", "stats"],
+    "homepage": "https://github.com/jlaso/simple-stats-demo",
+    "type": "app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseluis Laso",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "magephp/magallanes": "v1.2.0.2",
+        "silex/silex": "^2.0",
+        "jlaso/simple-stats": "dev-master"
+    },
+    "minimum-stability": "dev"
+}
