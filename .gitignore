@@ -9,3 +9,6 @@ composer.lock
 app/cache/*
 public/cache/*
 app/db/stats.sqlite
+
+.mage
+
