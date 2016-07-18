@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Example of Simple Stats</h1>
+<div>
+    {{ statsGraph('scatter', 'Clicks vs Visits', 'clicks,visits', [0,99999999999], 600, 480) }}
+</div>
+<div>
+    <a href="{{ path('click') }}?data=click_link&redirect={{ path('home') }}">Click</a>
+    <span>&nbsp;count [{{ statsCount('ips', userIP()) }}]</span>
+</div>
+<div>
+    {{ statsGraph('bar', 'Clicks', 'clicks', [0,99999999999], 600, 480) }}
+</div>
+</body>
+</html>

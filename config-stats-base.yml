@@ -1,0 +1,11 @@
+database:
+    driver: pdo_sqlite
+    path: "%project_dir%/app/db/stats.sqlite"
+    charset: UTF8
+
+models:
+    - clicks
+    - ips
+    - visits
+
+
