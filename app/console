@@ -5,6 +5,7 @@ namespace JLaso\SimpleStats;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
+use App\Command\FilterLogCommand;
 use App\Command\PostDeployCommand;
 use Symfony\Component\Console\Application;
 
@@ -12,6 +13,7 @@ $application = new Application();
 $application->addCommands(
     array(
         new PostDeployCommand(),
+        new FilterLogCommand(),
     )
 );
 $application->run();
