@@ -12,3 +12,5 @@ app/db/stats.sqlite
 
 .mage
 
+logs/*.log
+

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "265b8f13ae0277dfacd1bd939a560529",
-    "content-hash": "9ef904c33436dd20b00a3e236d15f018",
+    "hash": "720ffe1f7345eff8a2d7168d8b1ed980",
+    "content-hash": "939ba7009ed9f60662b7baaaf68874d2",
     "packages": [
         {
             "name": "goat1000/svggraph",
@@ -38,6 +38,53 @@
             "description": "Generates SVG graphs",
             "homepage": "http://www.goat1000.com/svggraph.php",
             "time": "2016-06-22 10:40:41"
+        },
+        {
+            "name": "jlaso/simple-logger",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jlaso/simple-logger.git",
+                "reference": "ba065ea7c3a115dfb18a2aa96b9cc86e08c86f97"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jlaso/simple-logger/zipball/ba065ea7c3a115dfb18a2aa96b9cc86e08c86f97",
+                "reference": "ba065ea7c3a115dfb18a2aa96b9cc86e08c86f97",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9",
+                "symfony/yaml": "2.*"
+            },
+            "require-dev": {
+                "mockery/mockery": "0.9.1",
+                "phpunit/phpunit": "~4.0",
+                "symfony/console": "2.4.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "JLaso\\SimpleLogger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joseluis Laso",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple logger for your PHP apps",
+            "homepage": "https://github.com/jlaso/simple-logger",
+            "keywords": [
+                "log",
+                "logger"
+            ],
+            "time": "2016-07-24 17:23:11"
         },
         {
             "name": "jlaso/simple-stats",
@@ -1020,7 +1067,8 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "jlaso/simple-stats": 20
+        "jlaso/simple-stats": 20,
+        "jlaso/simple-logger": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

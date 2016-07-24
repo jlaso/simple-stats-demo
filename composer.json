@@ -21,7 +21,8 @@
     "jlaso/simple-stats": "dev-master",
     "twig/twig": "^1.24",
     "symfony/twig-bridge": "^3.1",
-    "symfony/console": "^3.1"
+    "symfony/console": "^3.1",
+    "jlaso/simple-logger": "dev-master"
   },
   "autoload": {
     "psr-4": {
